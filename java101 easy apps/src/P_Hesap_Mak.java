@@ -34,7 +34,7 @@ public class P_Hesap_Mak {
         }
         else
         {
-            System.out.println("YANLIŞ DEĞER GİRDİNİZ EFENNNİM");
+            System.out.println("YANLIŞ DEĞER GİRDİNİZ. ");
         }
 
 
