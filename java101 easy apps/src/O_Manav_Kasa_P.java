@@ -22,4 +22,5 @@ public class O_Manav_Kasa_P {
         patlıcan *= kpatlıcan;
         float toplam = armut + elma + domates + muz + patlıcan;
         System.out.println("Toplam Tutar :" + toplam);
-}}
+    }
+}
