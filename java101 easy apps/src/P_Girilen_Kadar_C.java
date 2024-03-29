@@ -19,6 +19,6 @@ public class P_Girilen_Kadar_C {
             i++;
         }
 
-            
+
     }
 }
