@@ -30,4 +30,4 @@ public class O_Asal_Sayı_Bulma {
 
 
 
-   
+
