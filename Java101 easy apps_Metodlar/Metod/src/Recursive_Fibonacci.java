@@ -2,7 +2,7 @@ public class Recursive_Fibonacci {
 
     static int fib(int n)
     {
-        
+
         if (n==1 || n==2)
         {
             return 1;
