@@ -5,7 +5,8 @@ public class Local_Degiskenler {
         System.out.println(a);
     }
 
-    static void dif() {int a=2;
+    static void dif() {
+        int a=2;
         System.out.println(a);
     }
 
