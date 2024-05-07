@@ -14,6 +14,7 @@ public class Local_Degiskenler {
 
         int a = 22;
         sum(2, 3);
+        dif();
     }
 }
 //kod blokları içerisinde tanımlanan değişkenlerdir ve sadece tanımlandıkları kod blokları içerisinde kullanılabilirler.

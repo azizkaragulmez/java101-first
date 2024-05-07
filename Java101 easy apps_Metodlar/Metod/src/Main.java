@@ -21,7 +21,7 @@ public class Main {
     {
 
         System.out.println(power(2,3));
-        System.out.println(power(4,6));
+        System.out.println(power(3,4));
         sum(2,4);
     }
 }
