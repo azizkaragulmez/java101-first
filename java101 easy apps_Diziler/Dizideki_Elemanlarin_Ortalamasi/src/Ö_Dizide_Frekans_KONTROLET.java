@@ -9,15 +9,16 @@ public class Ö_Dizide_Frekans_KONTROLET {
         {
             for (int j=0;j<list.length; j++)
             {
-                if (list[i]==list[j])
+                if (i!=j && list[i]==list[j])
                 {
                     toplam++;
                 }
             }
             System.out.println(list[i]+" sayısı "+toplam+" kere tekrar edildi.");
             toplam=0;
+        }
 
-        }  //KONTROL ET
+        //KONTROL ET
 
     }
 }

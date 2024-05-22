@@ -5,7 +5,7 @@ public class Employe {
     int workHours;
     int hireYear;
 
-    Employe(String name, String surename, int salary, int workHours, int hireYear) {
+    Employe(String name, String surename, int salary, int workHours, int hireYear) { //Constracter yapısı bu
         this.name = name;
         this.surename = surename;
         this.salary = salary;
