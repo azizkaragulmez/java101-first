@@ -13,7 +13,7 @@ public class DigerKonular_Sayi_Tahmin_Oyunu {
         boolean İsWorg = false;
 
         int [] list= new int[5];
-        System.out.println(number);
+
         while (right < 5) {
             System.out.println("Lütfen Bir Değer Giriniz :");
             selected = input.nextInt();
@@ -53,6 +53,8 @@ public class DigerKonular_Sayi_Tahmin_Oyunu {
             if (list[i]!=0)
             System.out.print("["+list[i]+"]");
         }
+        System.out.println("");
+        System.out.println(number);
 
     }
 
