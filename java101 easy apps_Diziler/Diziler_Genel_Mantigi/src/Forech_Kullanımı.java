@@ -12,7 +12,7 @@ public class Forech_Kullanımı {
         System.out.println("----Forech kullanımı----");
 
         int sum=0;
-        for (int i: list)      //listadındaki dizileri hepsini taramayı sağlıyor
+        for (int i: list)      //list adındaki dizileri hepsini taramayı sağlıyor
         {
             //System.out.println(i);      //diziyi ekrana bastırır
             sum=sum+i;
@@ -25,7 +25,7 @@ public class Forech_Kullanımı {
         int [][] matris= { {1,2,3},
                            {4,5,6}};
 
-                for (int i=0; i<matris.length;i++)
+                for (int i=0; i<matris.length; i++)
                 {
                     for (int j=0; j<matris[i].length;j++)
                     {

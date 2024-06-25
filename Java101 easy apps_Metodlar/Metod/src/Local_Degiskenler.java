@@ -10,12 +10,15 @@ public class Local_Degiskenler {
         System.out.println(a);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {{
 
         int a = 22;
         sum(2, 3);
         dif();
     }
+
+    }
+
 }
 //kod blokları içerisinde tanımlanan değişkenlerdir ve sadece tanımlandıkları kod blokları içerisinde kullanılabilirler.
 // Diğer metot ve sınıflar üzerinden erişimleri yoktur. Lokal değişkenler tanımladıkları ({...}) kod blokları arasında kullanılırlar.

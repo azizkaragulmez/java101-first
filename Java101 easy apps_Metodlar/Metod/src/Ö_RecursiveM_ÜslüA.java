@@ -19,7 +19,5 @@ public class Ö_RecursiveM_ÜslüA
         System.out.println("üst degerini gir:");
         int üst=intput.nextInt();
         System.out.println(pow(alt,üst));
-
-
     }
 }

@@ -1,6 +1,7 @@
 public class Overloading {
 
-    static void sum(){
+    static void sum()
+    {
         System.out.println("frist parametre");
     }
     static int sum(int a){

@@ -5,10 +5,11 @@ public class Recursive_Özyineli {
     {
         if (x==10)
         {
+            System.out.println(x);
             return 10;
         }
-        System.out.println(x);
-        return x+sum(x+1);
+        System.out.println(x);   // adım adım işlemleri göremize yarıyor.
+        return x+sum(x+1);   // sum (x+1) demek sürekli çağrılması demek
     }
     public static void main (String[] args)
     {

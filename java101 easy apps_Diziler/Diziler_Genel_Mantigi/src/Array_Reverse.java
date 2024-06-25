@@ -1,8 +1,9 @@
+import java.util.Arrays;
+
 public class Array_Reverse {
 
-    static int[] reverse (int [] list){    //geri dönen değer dizi olcağı için int [] dedik. Ve gönderdiğimiz değer ve reverse atıcamız ismi aynı olmalı
-        int [] reverse= new int[list.length];
-
+    static int[] reverse (int [] list){    //geri dönen değer dizi olcağı için int [] dedik. Ve gönderdiğimiz değer ve reverse atıcamız ismi aynı olmalı.
+        int [] reverse= new int[list.length];   //tersine çevirerek yeni bir dizi oluşturcağımız için yeni bir dizi açmış olduk.
         for (int i=0 , j=list.length-1; i<list.length; i++,j--){  //çok fazla kullanılan yöntem değil ama bilelim
             reverse [i]=list[j];  //atama yapıyor.
         }
@@ -21,5 +22,11 @@ public class Array_Reverse {
         int [] newList= reverse(list);    // reversten ers gelen list i neyi listeye atıyoruz
         printArray(newList);              // yeni oluşan listeyide yazdırııyoruz
 
+            float [] dizi ={1.2F,3.2F};
+
+            for (int i=0;i< dizi.length;i++)
+            {
+                System.out.println(dizi[i]);
+            }
     }
 }
