@@ -1,6 +1,6 @@
 public class Kitap {
-    public int sayfaSayisi;
-    public String kitapAdi,yazar;
+    private int sayfaSayisi;
+    private String kitapAdi,yazar;
 
     Kitap(String kitapAdi,String yazar, int sayfaSayisi)
     {
@@ -16,6 +16,21 @@ public class Kitap {
         }
     }
 
+
+    public int getSayfaSayisi() {   //depişkenimizde ulaşmamızı sağlıyor.
+        return this.sayfaSayisi;
+    }
+
+    public void  setSayfaSayisi( int sayfaSayisi){
+        if(sayfaSayisi<1)
+        {
+            this.sayfaSayisi=333;
+        }
+        else
+        {
+            this.sayfaSayisi=sayfaSayisi;
+        }
+    }
     public void print()
     {
         System.out.println("kitap adı="+this.kitapAdi );
