@@ -40,3 +40,5 @@ public class Kitap {
 
     }
 }
+//getSayfaSayisi ında çağırmaya ulaşmaya yarıyor biz eğer this.sayfaSayisi derken ifleri kullanmazsak getSayfaSayisi
+//dediğimizde direk eksili bir şekilde gelicek. - bir değer girdiğinde hata verecek bir şekildede yapabiliriz işlemimizi.
